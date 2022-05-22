@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: #E0D8B0;
+  margin: 0;
+  max-height: 1200px;
+
+}
+
+header {
+  color: #ff7315;
+  text-align: center;
+  font-size: 3em;
+
+}
+
+form {
+  background-color: #DDBD93;
+  padding-top: 2%;
+}
+
+#instructions {
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #CE9461;
+
+}
+
+.titre {
+  text-align: left;
+  max-width: 130%;
+  padding: 0 5% 0 5%;
+}
+
+.title_head {
+  align-items: center;
+  align-content: center;
+  font-family: "Pacifico", "cursive";
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.letsgo {
+  flex: 0 0 60%;
+  max-width: 60%;
+  height: 50%;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  outline: none;
+  border: 1px solid #000000;
+  background: #DCDCDC;
+  margin-bottom: 20px;
+}
+
+.letsgo:hover {
+  background: #fff;
+  color: #adb5bd
+}
+
+.btngo {
+  display: inline-block;
+  flex: 100%;
+}
+
+.window {
+  align-items: center;
+  align-content: center;
+  font-family: "Pacifico", "cursive";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 300px;
+
+}
+
+
+.black {
+  color: #000000;
+}
+
+.form-control {
+  margin-left: 35px;
+  display: flex;
+  height: 40px;
+  width: 20%;
+  padding-right: 10%;
+}
+
+.btngo {
+  align-items: center;
+  align-content: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.window2 {
+  max-height: 600px;
+  overflow: scroll;
+  justify-content: center;
+  flex: content;
+
+}
+
+.position {
+  margin-left: 95%;
+  margin-top: -20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Pacifico", "cursive";
+}
+
+
+.instruction {
+  padding: 15px;
+  margin: 0px 15;
+  border-radius: 5px;
+  border: 2px solid #DEA057;
+}
+
+.plus {
+  background-color: #b42E2E;
+}
+
+.moins {
+  background-color: #1C1C55;
+}
+
+.moins:hover {
+  background-color: #000000;
+}
+
+.fini {
+  background-color: #009728;
+}
+
+
+.style {
+
+  flex: 0 0 70%;
+  max-width: 70%;
+  flex-basis: 70%;
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+  margin-left: 12%;
+
+
+}
+
+.price_content {
+  background-color: #DDBD93;
+  display: flex;
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+
+
+}
+
+
+.q3 {
+  display: block;
+  align-items: center;
+  justify-content: content;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #DDBD93;
+  flex: 0 100% 100%;
+  max-width: 100%;
+
+}
